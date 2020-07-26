@@ -3,4 +3,165 @@
     padding: 0;
     font-family: 微軟正黑體;
     box-sizing: border-box;
+    position: relative;
+    
+}
+html,body{
+    height: 100%;
+}
+/* header */
+.navbar{
+    background-color: #235BBA;
+    width: 100%;
+  
+}
+.navbar .navbar__logo{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: url(../img/logo_bird白.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+    margin-left:40%;
+    border: 1px solid #fff;
+    
+}
+.menu{
+    display: inline-block;
+}
+.nav__menu .menu__item{
+    display: inline-block;
+    padding: 24px;
+    color: white;
+    line-height: 28px;
+    font-size: 16px;
+    border:1px solid #fff;
+}
+
+/* jumborntron */
+.jumborntron{
+    background-image: url(../img/coffee.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.title{
+    margin-top: 22%;
+}
+h1{
+    font-size: 68px;
+    color:#fff;
+    text-align: center;  
+}
+p{
+    font-size: 24px;
+    color:#fff;
+    text-align: center;
+}
+/* about */
+.about{
+    background: url(../img/white\ wood.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+.door{
+    background-image: url(../img/門口.jpg);
+    background-size: cover;
+    background-position:center ;
+    width: 450px;
+    height: 550px;
+    margin-top: 50px;
+}
+.text{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 50%;
+}
+.text__p{
+    color: #252525;
+}
+h2{
+    margin-top: 50px;
+    margin-left: 500px;
+    font-weight: 500;
+    letter-spacing:10px;
+    font-size: 48px;
+    display: inline-block;
+    text-align: center;
+
+}
+hr{
+    border: none;
+    border-top:2px solid #252525;
+    margin-top: 10px;
+    width: 55%;
+    margin-left: 20%;
+}
+/* new */
+.news{
+    background: url(../img/dark\ wood.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.image1{
+    background-image: url(../img/台中新光KafeD.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+}
+.image2{
+    background-image: url(../img/年輪蛋糕吧.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+}
+.image3{
+    background-image: url(../img/咖啡廳內部.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+}
+.card{
+    margin-top: 50px;
+}
+.content{
+    width: 350px;
+    height: 370px;
+    background-color:#8ABFDF ;
+    padding-top: 40px;
+}
+h3{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px auto;
+}
+span{
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 2.5;
+}
+.footer{
+    background-color: #3C98CC;
+    width: 100%;
+    height: 300px;
+}
+.footer__logo{
+    background-image: url(../img/logo_bird白.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+}
+.contact{
+    margin-top: 20px;
 }
