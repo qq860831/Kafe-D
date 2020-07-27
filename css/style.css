@@ -11,33 +11,30 @@ html,body{
 }
 /* header */
 .navbar{
-    background-color: #235BBA;
+    background-color:#8ABFDF;
     width: 100%;
-  
 }
-.navbar .navbar__logo{
+.list1,.list2{
+    font-size: 24px;
+    font-weight: 500px;
+    text-align: center;
+    margin-top: 50px;
+}
+.list__item{
+   padding: 50px;
+   color: #fff;
+}
+.navbar__logo{
     display: inline-block;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     background: url(../img/logo_bird白.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80px;
-    margin-left:40%;
-    border: 1px solid #fff;
-    
+    margin-left: 10px; 
 }
-.menu{
-    display: inline-block;
-}
-.nav__menu .menu__item{
-    display: inline-block;
-    padding: 24px;
-    color: white;
-    line-height: 28px;
-    font-size: 16px;
-    border:1px solid #fff;
-}
+
 
 /* jumborntron */
 .jumborntron{
