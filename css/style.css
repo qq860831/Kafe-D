@@ -41,11 +41,11 @@ html,body{
     background-image: url(../img/coffee.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
    
 }
 .title{
-    margin-top: 22%;
+    margin-top: 10%;
 }
 h1{
     font-size: 68px;
@@ -82,7 +82,7 @@ p{
 }
 h2{
     margin-top: 50px;
-    margin-left: 500px;
+    margin-left: 450px;
     font-weight: 500;
     letter-spacing:10px;
     font-size: 48px;
@@ -160,9 +160,25 @@ span{
     margin-top: 50px;
 }
 .contact{
-    margin-top: 30px;
+    margin-top: 35px;
     font-size:18px;
-    line-height: 3;
+    line-height: 2.5;
     letter-spacing: 3px;
     color: #fff;
+}
+.icon-group{
+    color:#fff;
+    margin-left: 120px;
+    margin-top: 120px;
+    font-size: 28px;
+    opacity: 0.6;
+}
+i{
+    padding: 15px;
+  
+}
+.copy{
+    color:#fff;
+    font-size: 14px;
+    opacity: 0.6;
 }
