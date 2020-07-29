@@ -40,6 +40,9 @@ html,body{
     margin-left: 10px; 
     cursor: pointer;
 }
+.navbar__logo:hover{
+    cursor: pointer;
+}
 
 
 /* jumborntron */
@@ -169,8 +172,11 @@ span{
     width: 150px;
     height: 150px;
     margin-top: 50px;
-    margin-left: 100px; 
+    margin-left: 150px; 
 }
+.container-fluid .row{
+    margin-left: 30px;
+  }
 .contact{
     margin-top: 35px;
     font-size:18px;
