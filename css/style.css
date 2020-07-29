@@ -71,12 +71,12 @@ p{
     background-size: cover;
     height: 85vh;
 }
-.door{
-    background-image: url(../img/門口.jpg);
+.brand{
+    background-image: url(../img/服務生.jpg);
     background-size: cover;
-    background-position:center ;
-    width: 450px;
-    height: 550px;
+    background-position:center;
+    width: 570px;
+    height: 450px;
     margin-top: 50px;
 }
 .text{
@@ -99,11 +99,12 @@ h2{
 }
 hr{
     border: none;
-    border-top:2px solid #252525;
+    border-top:3px solid #252525;
     margin-top: 10px;
     width: 55%;
     margin-left: 20%;
 }
+
 /* new */
 .news{
     background: url(../img/dark\ wood.png);
@@ -118,29 +119,29 @@ hr{
     background-image: url(../img/台中新光KafeD.jpg);
     background-position: center;
     background-size: cover;
-    width: 350px;
+    width: 400px;
     height: 300px;
 }
 .image2{
     background-image: url(../img/年輪蛋糕吧.jpg);
     background-position: center;
     background-size: cover;
-    width: 350px;
+    width: 400px;
     height: 300px;
 }
 .image3{
     background-image: url(../img/咖啡廳內部.jpg);
     background-position: center;
     background-size: cover;
-    width: 350px;
+    width: 400px;
     height: 300px;
 }
 .card{
     margin-top: 50px;
 }
 .content{
-    width: 350px;
-    height: 370px;
+    width: 400px;
+    height: 300px;
     background-color:#8ABFDF ;
     padding-top: 40px;
 }
@@ -168,6 +169,7 @@ span{
     width: 150px;
     height: 150px;
     margin-top: 50px;
+    margin-left: 100px; 
 }
 .contact{
     margin-top: 35px;
