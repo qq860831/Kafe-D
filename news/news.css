@@ -84,6 +84,7 @@
     width: 350px;
     height: 250px;
     transition: 0.8s ease;
+    border-radius: 5px;
     
 }
 .card1 img:hover{
@@ -98,6 +99,7 @@
     width: 350px;
     height: 250px;
     transition: 0.8s ease;
+    border-radius: 5px;
     
 }
 .card2 img:hover{
@@ -111,6 +113,7 @@
     width: 350px;
     height: 250px;
     transition: 0.8s ease;
+    border-radius: 5px;
  
 }
 .card3 img:hover{
@@ -119,7 +122,7 @@
 }
 .chevron{
     font-size: 20px;
-    margin-left: 500px;
+    margin-left: 550px;
     color: #252525;
 }
   /* footer */
