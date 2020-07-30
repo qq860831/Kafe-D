@@ -124,6 +124,10 @@ hr{
     background-size: cover;
     width: 400px;
     height: 300px;
+    transition: 0.8s ease;
+}
+.image1:hover{
+    transform: scale(1.4);
 }
 .image2{
     background-image: url(../img/年輪蛋糕吧.jpg);
@@ -131,6 +135,10 @@ hr{
     background-size: cover;
     width: 400px;
     height: 300px;
+    transition: 0.8s ease;
+}
+.image2:hover{
+    transform: scale(1.4);
 }
 .image3{
     background-image: url(../img/咖啡廳內部.jpg);
@@ -138,9 +146,16 @@ hr{
     background-size: cover;
     width: 400px;
     height: 300px;
+    transition: 0.8s ease;
+}
+.image3:hover{
+    transform: scale(1.4);
 }
 .card{
+    width: 400px;
+    height: 300px;
     margin-top: 50px;
+    overflow: hidden;
 }
 .content{
     width: 400px;
