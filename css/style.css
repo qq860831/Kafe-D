@@ -51,8 +51,7 @@ html,body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 85vh;
-   
+    height: 85vh; 
 }
 .title{
     margin-top: 10%;
