@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+    position: relative;
+  }
+  html,body{
+    /* height: 3000px; */
+  }
+  /* header */
+  .navbar{
+    background-color:#3C98CC;
+    width: 100%;
+  }
+  .list1,.list2{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .list__item{
+   padding: 50px;
+   color: #fff;
+   font-weight: bold;
+   outline: none;
+  }
+  .list__item:hover{
+    color: #8ABFDF;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .navbar__logo{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background: url(../img/logo_bird白.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px;
+    margin-left: 10px; 
+    cursor: pointer;
+  }
+  .jumborntron{
+    background-image: url(../img/coffee\ house.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+  }.contact_us{
+    background: url(../img/dark\ wood.png);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+  }
+  h2{
+    margin-top: 50px;
+    margin-left: 450px;
+    font-weight: 500;
+    letter-spacing:10px;
+    font-size: 48px;
+    display: inline-block;
+    text-align: center;
+  }
+  hr{
+    border: none;
+    border-top:3px solid #252525;
+    margin-top: 10px;
+    width: 55%;
+    margin-left: 20%;
+  }
+   /* footer */
+   .footer{
+    background-color: #3C98CC;
+    width: 100%;
+    height: 100%;
+  }
+  .footer__logo{
+    background-image: url(../img/logo_bird白.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  .container-fluid .row{
+    margin-left: 100px;
+  }
+  .contact{
+    margin-top: 35px;
+    font-size:18px;
+    line-height: 2.5;
+    letter-spacing: 3px;
+    color: #fff;
+  }
+  .icon-group{
+    color:#fff;
+    margin-left: 120px;
+    margin-top: 120px;
+    font-size: 28px;
+    opacity: 0.6;
+  }
+  i{
+    padding: 15px;
+  
+  }
+  .copy{
+    color:#fff;
+    font-size: 14px;
+    opacity: 0.6;
+  }
