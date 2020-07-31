@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./contact.css">
     <link rel="shortcut icon" href="../img/favicon-32x32.png">
 </head>
+
 <body>
     <div class="wrapper">
         <!-- Start header -->
@@ -51,6 +52,29 @@
                         <h2>聯絡專區
                             <hr>
                         </h2>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <form action="">
+                            <label for="name">姓名</label>
+                            <input type="text" name="name" id="name" required placeholder="請輸入您的姓名">
+                            <label for="email">信箱</label>
+                            <input type="email" name="email" id="email" required placeholder="請輸入您的信箱">
+                            <label for="email">電話</label>
+                            <input type="text" name="phone" id="phone" required placeholder="0918123456">
+                            <label for="message">其他建議</label>
+                            <textarea name="message" id="message" rows="10"></textarea>
+                            <div class="col-sm-12">
+                                <div class="cancel col-sm-6">
+                                    <input type="reset" value="取消">
+                                </div>
+                                <div class="enter col-sm-6">
+                                    <input type="submit" value="確認送出">
+                                </div>
+                            </div>
+
+                        </form>
                     </div>
                 </div>
             </div>

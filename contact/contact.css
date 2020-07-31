@@ -68,6 +68,72 @@
     width: 55%;
     margin-left: 20%;
   }
+  form{
+    /* border: solid 1px; */
+    padding-left: 15%;
+    padding-top: 30px;
+  }
+  label{
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2.5;
+    color: #3C98CC;
+  }
+  input{
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: #fff;
+    border: none;
+    outline: none;
+  }
+  textarea{
+    width: 80%;
+    height: 250px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: #fff;
+    outline: none;
+    resize: none;
+  }
+  ::placeholder{
+    opacity: 0.5;
+  }
+  input[type="reset"], input[type="submit"] 
+{
+  background-color: #3C98CC;
+  color: #fff;
+  border: 0;
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  width: 180px;
+}
+.enter{
+  padding-top: 20px;
+  padding-left: 0px;
+}
+.cancel{
+  padding-top: 20px;
+  padding-left: 120px;
+}
+input[type="reset"]:hover{
+  cursor: pointer;
+}
+input[type="submit"] :hover{
+  cursor: pointer;
+}
    /* footer */
    .footer{
     background-color: #3C98CC;
