@@ -80,6 +80,13 @@
     height: 80px;
     margin-left: 60px;
     margin-top: 40px;
+    opacity: 0.3;
+}
+.logo :hover{
+    opacity: 1;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
 }
  .logo .line{
     width: 40px;
@@ -88,6 +95,7 @@
     transform: rotate(90deg);
     margin-left:88%;
     margin-top:-45px;
+    opacity: 0.6;
  }
  .box-group{
    padding-left: 100px;
@@ -102,7 +110,8 @@
  .box h3{
    font-size: 24px;
    margin-left: 22%;
-   line-height: 1.5;
+   margin-bottom: 20px;
+   line-height: 2;
    letter-spacing: 2.5px;
  }
   /* footer */
