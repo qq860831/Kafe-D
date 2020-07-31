@@ -52,7 +52,7 @@
     background: url(../img/dark\ wood.png);
     background-position: center;
     background-size: cover;
-    height: 1000px;
+  
   }
   h2{
     margin-top: 50px;
@@ -88,6 +88,22 @@
     transform: rotate(90deg);
     margin-left:88%;
     margin-top:-45px;
+ }
+ .box-group{
+   padding-left: 100px;
+   padding-top: 20px;
+ }
+ .box img{
+   width: 400px;
+   height: 300px;
+   background-size:cover;
+   background-position: center;
+ }
+ .box h3{
+   font-size: 24px;
+   margin-left: 22%;
+   line-height: 1.5;
+   letter-spacing: 2.5px;
  }
   /* footer */
   .footer{
