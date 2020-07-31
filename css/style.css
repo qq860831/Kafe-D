@@ -80,6 +80,7 @@ p{
     width: 570px;
     height: 450px;
     margin-top: 50px;
+    box-shadow:5px 5px 15px #252525;
 }
 .text{
     font-size: 24px;
