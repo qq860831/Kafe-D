@@ -93,6 +93,7 @@
     background-color: #fff;
     border: none;
     outline: none;
+    /* box-shadow: 1px 3px 15px; */
   }
   textarea{
     width: 80%;
@@ -105,20 +106,29 @@
     color: black;
     background-color: #fff;
     outline: none;
+    border: none;
     resize: none;
   }
   ::placeholder{
     opacity: 0.5;
   }
+  input:active{
+    border:solid 2px #3C98CC ;
+  }
+  textarea:active{
+    border:solid 2px #3C98CC ;
+  }
   input[type="reset"], input[type="submit"] 
 {
-  background-color: #3C98CC;
-  color: #fff;
-  border: 0;
+  background-color:transparent;
+  color: #3C98CC;
+  border: solid 3px #3C98CC;
   padding: 15px 30px;
   font-size: 18px;
+  font-weight: 600;
   margin: 10px;
   width: 180px;
+  /* box-shadow: none; */
 }
 .enter{
   padding-top: 20px;
@@ -128,11 +138,16 @@
   padding-top: 20px;
   padding-left: 120px;
 }
-input[type="reset"]:hover{
+input[value="取消"]:hover{
   cursor: pointer;
+  color: #fff;
+  background-color: #3C98CC;
+  
 }
-input[type="submit"] :hover{
+input[value="確認送出"]:hover:hover{
   cursor: pointer;
+  color: #fff;
+  background-color: #3C98CC;
 }
    /* footer */
    .footer{

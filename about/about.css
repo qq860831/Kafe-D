@@ -74,13 +74,17 @@ hr{
   background-position: center;
   margin-left: 120px;
   margin-top: 50px;
+  box-shadow: 5px 5px 15px;
 }
 .door__p{
-  font-size: 24px;
+  width: 75%;
+  font-size: 28px;
   line-height: 3;
   margin-top: 30px;
-  margin-bottom: 100px;
-  text-align: center;
+  margin-left: 120px;
+  /* margin-bottom: 50px; */
+  text-align: left;
+  padding-left: 20px;
 }
 .footer{
   background-color: #3C98CC;
