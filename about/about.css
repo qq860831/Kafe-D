@@ -9,9 +9,17 @@ html,body{
   /* height: 3000px; */
 }
 /* header */
+
+/* navbar */
 .navbar{
   background-color:#3C98CC;
   width: 100%;
+}
+@media(max-width:768px){
+  .navbar{
+    width: 100%;
+    font-size: 12px;
+  }
 }
 .list1,.list2{
   font-size: 24px;
