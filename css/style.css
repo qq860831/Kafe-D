@@ -168,6 +168,9 @@ hr{
     overflow: hidden;
     box-shadow: 0px 3px 20px #252525;
 }
+.card:hover{
+    cursor: pointer;
+}
 .content{
     width: 400px;
     height: 300px;
@@ -175,11 +178,18 @@ hr{
     padding-top: 40px;
     box-shadow: 0px 3px 20px #252525;
 }
+.content:hover{
+    cursor: pointer;
+}
 h3{
-    font-size: 24px;
+    font-size: 28px;
     text-align: center;
     margin-bottom: 30px;
 }
+h3:hover{
+    text-decoration: underline;
+}
+
 span{
     padding: 10px;
     padding-top: 20px;
