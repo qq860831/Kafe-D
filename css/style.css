@@ -86,18 +86,20 @@ p{
     font-size: 24px;
     font-weight: 500;
     padding-top: 10%;
+    width: 700px;
+    margin-top: 70px;
 }
 .text__p{
     color: #252525;
-     text-align: left;
-     line-height:2;
-     letter-spacing: 5px;
+     text-align: center;
+     line-height:2.5;
+     letter-spacing: 1px;
 }
 .brand-title{
     font-size: 28px;
     font-weight: 1000;
     padding-bottom: 30px;
-    margin-right: 70px ;
+    margin-right: 50px ;
     color: #252525;
 }
 h2{
