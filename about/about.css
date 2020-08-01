@@ -16,9 +16,8 @@ html,body{
   width: 100%;
 }
 @media(max-width:768px){
-  .navbar{
-    width: 100%;
-    font-size: 12px;
+  .navbar__logo{
+    width: 50%;
   }
 }
 .list1,.list2{
