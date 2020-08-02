@@ -41,11 +41,23 @@
     cursor: pointer;
   }
   .jumborntron{
-    background-image: url(../img/coffee-4.jpg);
+    background-image: url(../img/5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh;
+    opacity: 0.8;
+  }
+  .title{
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    width: 500px;
+    height: 300px;
+    border: 10px solid #fff;
+    margin: 200px auto;
   }
   /* section */
   .product{
