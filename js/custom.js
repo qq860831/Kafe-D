@@ -10,8 +10,6 @@ $(window).ready(function () {
     }
   })
 
- 
-
 })
 
 //   skroller begin
