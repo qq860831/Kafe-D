@@ -1,72 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 微軟正黑體;
-    box-sizing: border-box;
-    position: relative;
-    
-}
 html,body{
-    /* height: 100%; */
+    overflow-x: hidden;
 }
-/* header */
+.wrap{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
 /* navbar */
 .navbar{
-     background-color:#3C98CC; 
-     width: 100%;
-
+     background-color:#3C98CC;
 }
-.list1,.list2{
+.list-group{
+    display: flex;
+    flex-direction: row;
     font-size: 24px;
-    text-align: center;
-    margin-top: 50px;
 }
-.list__item{
-   padding: 50px;
-   color: #fff;
-   font-weight: bold;
+.list-group li{
+    margin: 0 50px;
+    font-weight: bold;
 }
-.list__item:hover{
-    color: #8ABFDF;
+.list-group li a:hover{
+    color: #8abfdf;
+    transition: all 0.3s;
+    text-decoration: none;
+    border-bottom: 3px solid #8abfdf;
+}
+.list-group li a:active{
+    color: #8abfdf;
+}
+.logo a{
+    display: block;
+    background-image: url(../img/logo_bird白.png);
+    background-size: 100% 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-indent: 101%;
+    width: 100px;
+    height: 120px;
     cursor: pointer;
-    transition: 0.3s;
-}
-.navbar__logo{
-    display: inline-block;
-    width: 140px;
-    height: 140px;
-    background: url(../img/logo_bird白.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80px;
-    margin-left: 10px; 
-    cursor: pointer;
-}
-.navbar__logo:hover{
-    cursor: pointer;
-}
 
+}
 
 /* jumborntron */
 .jumborntron{
     background-image: url(../img/coffee.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-attachment: fixed;
     height: 85vh; 
 }
-.title{
-    margin-top: 10%;
-}
-h1{
-    font-size: 68px;
+.heading{
+    font-size: 72px;
     color:#fff;
-    text-align: center;  
+    text-align: center;
 }
 p{
     font-size: 24px;
     color:#fff;
     text-align: center;
+    margin-top: 20px;
 }
 /* about */
 .about{
@@ -79,6 +75,7 @@ p{
     background-image: url(../img/服務生.jpg);
     background-size: cover;
     background-position:center;
+    background-repeat: no-repeat;
     width: 570px;
     height: 450px;
     margin-top: 50px;
